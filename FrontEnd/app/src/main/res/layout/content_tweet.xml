@@ -22,10 +22,16 @@
             android:layout_height="wrap_content">
 
             <RelativeLayout
-                android:id="@+id/image_tweet"
+                android:id="@+id/image_text_layout"
                 android:layout_width="match_parent"
-                android:layout_height="180dp"
-                android:background="@drawable/dummy">
+                android:layout_height="180dp">
+
+                <ImageView
+                    android:id="@+id/image_tweet"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/dummy"
+                    android:scaleType="fitXY" />
 
                 <TextView
                     android:id="@+id/desc_tweet"
@@ -37,12 +43,12 @@
                     android:textSize="18sp"
                     android:textAllCaps="false"
                     android:text="Lorem Ipsum dolor sit amet"
-                    android:textColor="@color/colorBlue" />
+                    android:textColor="@android:color/white" />
 
             </RelativeLayout>
 
             <RelativeLayout
-                android:layout_below="@id/image_tweet"
+                android:layout_below="@id/image_text_layout"
                 android:layout_width="match_parent"
                 android:layout_height="70dp">
 
@@ -87,7 +93,7 @@
                     android:layout_toEndOf="@id/tweet_minus"
                     android:layout_centerVertical="true" />
 
-                <TextView
+                <!--<TextView
                     android:id="@+id/topic_category"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -97,7 +103,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_marginEnd="20dp"
                     android:layout_centerVertical="true"
-                    android:textColor="@color/colorBlue"/>
+                    android:textColor="@color/colorBlue"/>-->
 
             </RelativeLayout>
 

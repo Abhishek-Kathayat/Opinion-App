@@ -1,33 +1,53 @@
 package com.teksystem.hackathon.Models;
 
+import com.google.gson.annotations.SerializedName;
+
 public class TopicsModel {
-    private String topicname;
-    private int thumbup;
-    private int thumbdown;
-    public String category;
+    @SerializedName("topic_id")
+    private int topic_id;
+    @SerializedName("topic_name")
+    private String topic_name;
+    @SerializedName("topic_desc")
+    private String topic_desc;
+    @SerializedName("topic_image")
+    private String topic_img;
 
-    public TopicsModel(String topicname, int thumbup, int thumbdown, String category) {
-        this.topicname = topicname;
-        this.thumbdown = thumbdown;
-        this.thumbup = thumbup;
-        this.category = category;
+    TopicsModel(int topic_id, String topic_name, String topic_desc, String topic_img) {
+        this.topic_id = topic_id;
+        this.topic_name = topic_name;
+        this.topic_desc = topic_desc;
+        this.topic_img = topic_img;
     }
 
-    public void setTopicname(String topicname) {
-        this.topicname = topicname;
+    public void setTopic_id(int topic_id) {
+        this.topic_id = topic_id;
     }
 
-    public String getCategory() { return category; }
-
-    public String getTopicname() {
-        return topicname;
+    public int getTopic_id() {
+        return topic_id;
     }
 
-    public int getThumbup() {
-        return thumbup;
+    public void setTopic_name(String topic_name) {
+        this.topic_name = topic_name;
     }
 
-    public int getThumbdown() {
-        return thumbdown;
+    public String getTopic_name() {
+        return topic_name;
+    }
+
+    public void setTopic_desc(String topic_desc) {
+        this.topic_desc = topic_desc;
+    }
+
+    public String getTopic_desc() {
+        return topic_desc;
+    }
+
+    public void setTopic_img(String topic_img) {
+        this.topic_img = topic_img;
+    }
+
+    public String getTopic_img() {
+        return topic_img;
     }
 }
