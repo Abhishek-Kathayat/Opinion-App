@@ -9,6 +9,7 @@ This project here has been implemented in three parts :<br/>
   <li>Back End</li>
   <li>Sentimental Analysis</li>
 </ul><br/>
+<b>This is a work in progress and you may encounter problems like app crashing or not responding properly</b></br>
 
 ### FrontEnd
 The Front End part has been implemented as an Android App. The main reason for choosing Android App over other front ends was that Android apps are easily accessible to people, and giving your opinion is just a click away. The Android app also provides the user with the option to rasie a topic other than just giving their opinions.<br/>
