@@ -7,6 +7,7 @@ This project here has been implemented in three parts :<br/>
 <ul>
   <li>Front End</li>
   <li>Back End</li>
+  <li>Emotion and Genre Analysis</li>
   <li>Sentimental Analysis</li>
 </ul><br/>
 <b>This is a work in progress and you may encounter problems like app crashing or not responding properly</b></br>
