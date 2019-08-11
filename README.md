@@ -90,8 +90,9 @@ ability to overpower highly sophisticated classification algorithms.</li>
 of about 70%.</li>
 </ul>
 
-Accuracy:
-<img src="emotion and genre analysis/snapshots/t1.PNG" width="350" height="150"/>&nbsp; &nbsp; &nbsp; &nbsp;
+Accuracy:<br/><br/>
+
+&nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/t1.png" width="250" height="440"/>
 
   
 
