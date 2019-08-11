@@ -70,7 +70,7 @@ Shown below are the screenshots of the script and output showing the different s
 <li>To run the file just put the code in jupyter notebook.</li>
 
 <br/><br/>
-### Sentiment Analysis<br/><br/>
+## Sentiment Analysis<br/><br/>
 
 Sentiment Analysis is a field of Natural Language
  Processing (NLP) that builds models that try to 
@@ -79,7 +79,7 @@ e.g.:<br/><br/>
 Polarity: If the speaker expresses a positive or 
 negative opinion.<br/><br/>
 &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/t3.png" width="640" height="200"/><br/><br/>
-Subject: The thing that is being talked about<br/><br/>
+Subject: The thing that is being talked about.<br/><br/>
 Opinion holder: The person, or entity that expresses the opinion.<br/><br/>
 It was implemented using the concepts of machine learning.<br/><br/>
 The task was divided in five steps:<br/><br/>
