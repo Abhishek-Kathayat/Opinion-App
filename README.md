@@ -77,17 +77,16 @@ identify and classify attributes of the expression
 e.g.:<br/>
 Polarity: if the speaker expresses a positive or 
 negative opinion<br/>
-Subject: the thing that is being talked about
-Opinion holder: the person, or entity that expresses the opinion.
-It was implemented using the concepts of machine learning.
-The task was divided in three steps:
+Subject: the thing that is being talked about<br/>
+Opinion holder: the person, or entity that expresses the opinion.<br/>
+It was implemented using the concepts of machine learning.<br/>
+The task was divided in three steps:<br/>
 <ul><li>Preprocessing:
-<li>Tokenization:Tokenization is a step which splits longer strings of text into smaller pieces, or tokens. Larger chunks of text can be tokenized into sentences, sentences can be tokenized into words, etc.</li>
+<li>Tokenization: Tokenization is a step which splits longer strings of text into smaller pieces, or tokens. Larger chunks of text can be tokenized into sentences, sentences can be tokenized into words, etc.</li>
  <li>Filtering Stop Words: A stop word is a commonly used word (such as “the”, “a”, “an”, “in”) that a search engine has been programmed to   ignore, both when indexing entries for searching and when retrieving them as the result of a search query.</li></li>
-<li>Model Learning:I used Naive Bayes classifier as a model due to its 
-ability to overpower highly sophisticated classification
-algorithms</li>
-<li>Model Validation:Our model provided us with an accuracy
+<li>Model Learning: I used Naive Bayes classifier as a model due to its 
+ability to overpower highly sophisticated classification algorithms.</li>
+<li>Model Validation: Our model provided us with an accuracy
 of about 70%.</li>
 </ul>
 
