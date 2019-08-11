@@ -69,7 +69,7 @@ Shown below are the screenshots of the script and output showing the different s
 
 <li>To run the file just put the code in jupyter notebook.</li>
 
-### Sentiment Analysis
+### Sentiment Analysis<br/><br/>
 
 Sentiment Analysis is a field of Natural Language
  Processing (NLP) that builds models that try to 
@@ -92,7 +92,7 @@ ability to overpower highly sophisticated classification algorithms.</li><br/><b
 </ul><br/><br/>
 
 #### Accuracy:<br/><br/>
-&nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/t1.png" width="440" height="100"/>
+&nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/t1.png" width="440" height="100"/><br/><br/>
 
 #### Result:<br/><br/>
 
