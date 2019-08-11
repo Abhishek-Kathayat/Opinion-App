@@ -77,6 +77,7 @@ identify and classify attributes of the expression
 e.g.:<br/>
 Polarity: If the speaker expresses a positive or 
 negative opinion.<br/><br/>
+&nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/t3.png" width="640" height="200"/><br/><br/>
 Subject: the thing that is being talked about<br/><br/>
 Opinion holder: The person, or entity that expresses the opinion.<br/><br/>
 It was implemented using the concepts of machine learning.<br/><br/>
@@ -94,8 +95,8 @@ of about 70%.</li>
 Accuracy:<br/><br/>
 &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/t1.png" width="440" height="150"/>
 
-Result:
-&nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/t3.png" width="640" height="250"/><br/><br/>
-&nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/t2.png" width="640" height="250"/><br/><br/>
+Result:<br/><br/>
+
+&nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/t2.png" width="640" height="200"/><br/><br/>
 
 
