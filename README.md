@@ -43,5 +43,11 @@ The content in the screenshots shown above has been loaded using a test API crea
 The Emotion and genre analysis has been implemented in Python using Machine learning techniques.The dataset i have worked on is TWITTER dataset for emotion detection and BBC dataset for genre detection.The code begins by fetching the fetching the comment made by user from database and then sending it to the python script.
 Shown below are the screenshots of the script and output showing the different stages :<br/>
 
+<li>Firstly i fetched the data from the database in the text format.I used python mysql library to fetch the data.</li>
+<br/>
+<img src="emotion and genre analysis/snapshots/ss3.PNG" width="250" height="440"/> <br/> <br/>
+
+  
+
 
 
