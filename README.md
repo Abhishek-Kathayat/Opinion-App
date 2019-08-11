@@ -58,11 +58,11 @@ Shown below are the screenshots of the script and output showing the different s
 
 <li>KFold Validation-In every ML project we have three types of sets-test,train and validation.The benefits of having a validation set is that is backpropagates to tune in the parameters.So i have used KFold validation which divide the train set into k valid sets.</li><br/><br/>
 
-<img src="emotion and genre analysis/snapshots/ss6.PNG" width="300" height="150"/>&nbsp; &nbsp; &nbsp; &nbsp;
-<img src="emotion and genre analysis/snapshots/ss7.PNG" width="300" height="150"/><br/><br/>
-<img src="emotion and genre analysis/snapshots/ss8.PNG" width="300" height="150"/>&nbsp; &nbsp; &nbsp; &nbsp;
-<img src="emotion and genre analysis/snapshots/ss9.PNG" width="300" height="150"/><br/><br/>
-<img src="emotion and genre analysis/snapshots/ss10.PNG" width="300" height="150"/><br/><br/>
+<img src="emotion and genre analysis/snapshots/ss6.PNG" width="350" height="150"/>&nbsp; &nbsp; &nbsp; &nbsp;
+<img src="emotion and genre analysis/snapshots/ss7.PNG" width="350" height="150"/><br/><br/>
+<img src="emotion and genre analysis/snapshots/ss8.PNG" width="350" height="150"/>&nbsp; &nbsp; &nbsp; &nbsp;
+<img src="emotion and genre analysis/snapshots/ss9.PNG" width="350" height="150"/><br/><br/>
+<img src="emotion and genre analysis/snapshots/ss10.PNG" width="350" height="150"/><br/><br/>
 
 <li></li><br/><br/>
 
