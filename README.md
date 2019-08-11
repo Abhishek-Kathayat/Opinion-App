@@ -45,7 +45,7 @@ Shown below are the screenshots of the script and output showing the different s
 
 <li>Firstly i fetched the data from the database in the text format.I used python mysql library to fetch the data.</li>
 <br/>
-<img src="emotion and genre analysis/snapshots/ss3.PNG" width="350" height="300"/> <br/> <br/>
+<img src="emotion and genre analysis/snapshots/ss3.PNG" width="400" height="250"/> <br/> <br/>
 
   
 
