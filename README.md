@@ -83,6 +83,7 @@ It was implemented using the concepts of machine learning.<br/><br/>
 The task was divided in five steps:<br/><br/>
 <ul><li>Preprocessing:
 <li>Tokenization: Tokenization is a step which splits longer strings of text into smaller pieces, or tokens. Larger chunks of text can be tokenized into sentences, sentences can be tokenized into words, etc.</li>
+  &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/t4.png" width="440" height="150"/><br/><br/>
  <li>Filtering Stop Words: A stop word is a commonly used word (such as “the”, “a”, “an”, “in”) that a search engine has been programmed to   ignore, both when indexing entries for searching and when retrieving them as the result of a search query.</li></li>
 <li>Model Learning: I used Naive Bayes classifier as a model due to its 
 ability to overpower highly sophisticated classification algorithms.</li>
@@ -94,7 +95,7 @@ Accuracy:<br/><br/>
 &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/t1.png" width="440" height="150"/>
 
 Result:
-&nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/t3.png" width="440" height="250"/><br/><br/>
-&nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/t4.png" width="440" height="250"/><br/><br/>
+&nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/t3.png" width="640" height="250"/><br/><br/>
+&nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/t2.png" width="640" height="250"/><br/><br/>
 
 
