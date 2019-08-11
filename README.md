@@ -13,3 +13,10 @@ This project here has been implemented in three parts :<br/>
 ### FrontEnd
 The Front End part has been implemented as an Android App. The main reason for choosing Android App over other front ends was that Android apps are easily accessible to people, and giving your opinion is just a click away. The Android app also provides the user with the option to rasie a topic other than just giving their opinions.<br/>
 Shown below are the screenshots of the app showing the different layout of the app :<br/>
+
+###Emotion and Genre Analysis
+The Emotion and genre analysis has been implemented in Python using Machine learning techniques.The dataset i have worked on is TWITTER dataset for emotion detection and BBC dataset for genre detection.The code begins by fetching the fetching the comment made by user from database and then sending it to the python script.
+Shown below are the screenshots of the script and output showing the different stages :<br/>
+
+
+
