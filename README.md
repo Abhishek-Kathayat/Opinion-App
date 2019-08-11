@@ -69,6 +69,7 @@ Shown below are the screenshots of the script and output showing the different s
 
 <li>To run the file just put the code in jupyter notebook.</li>
 
+<br/><br/>
 ### Sentiment Analysis<br/><br/>
 
 Sentiment Analysis is a field of Natural Language
@@ -91,7 +92,7 @@ ability to overpower highly sophisticated classification algorithms.</li><br/><b
 <li>Model Validation: Our model provided us with an accuracy of about 70%.</li><br/><br/>
 </ul><br/><br/>
 
-#### Accuracy:<br/><br/>
+#### Accuracy:
 &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/t1.png" width="440" height="100"/><br/><br/>
 
 #### Result:<br/><br/>
