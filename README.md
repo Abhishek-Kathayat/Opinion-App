@@ -47,7 +47,7 @@ Shown below are the screenshots of the script and output showing the different s
 <br/>
 <img src="emotion and genre analysis/snapshots/ss3.PNG" width="400" height="250"/> <br/> <br/>
 <li>Then i downloaded the required dataset and analysed and converted the output labels into integer value using python script.Integer values are easy to handle as compared to text</li><br/>
-<img src="emotion and genre analysis/snapshots/ss1.PNG" width="400" height="250"/> <br/> <br/>
+<img src="emotion and genre analysis/snapshots/ss1.PNG" width="400" height="250"/> &nbsp; &nbsp; &nbsp; &nbsp;
 <img src="emotion and genre analysis/snapshots/ss2.PNG" width="400" height="250"/> <br/> <br/>
 
 
