@@ -64,7 +64,8 @@ Shown below are the screenshots of the script and output showing the different s
 <img src="emotion and genre analysis/snapshots/ss9.PNG" width="350" height="150"/><br/><br/>
 <img src="emotion and genre analysis/snapshots/ss10.PNG" width="350" height="150"/><br/><br/>
 
-<li></li><br/><br/>
+<li>Result - The analysis of result is very important.I plotted the confusion matrix for better analysis of the result.</li><br/>
+<img src="emotion and genre analysis/snapshots/ss5.PNG" width="350" height="350"/><br/><br/>
 
 
 
