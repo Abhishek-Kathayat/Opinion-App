@@ -92,7 +92,7 @@ of about 70%.</li>
 
 Accuracy:<br/><br/>
 
-&nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/t1.png" width="250" height="440"/>
+&nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/t1.png" width="440" height="250"/>
 
   
 
