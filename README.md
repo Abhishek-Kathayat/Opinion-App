@@ -49,6 +49,24 @@ Shown below are the screenshots of the script and output showing the different s
 <li>Then i downloaded the required dataset and analysed and converted the output labels into integer value using python script.Integer values are easy to handle as compared to text</li><br/>
 <img src="emotion and genre analysis/snapshots/ss1.PNG" width="400" height="250"/> &nbsp; &nbsp; &nbsp; &nbsp;<img src="emotion and genre analysis/snapshots/ss2.PNG" width="400" height="250"/> <br/> <br/>
 
+<li> Data Visualization - I used the matplotlib library to visulize the frequency of occurence of each label and identify if any pattern exists.</li><br/>
+<img src="emotion and genre analysis/snapshots/ss4.PNG" width="400" height="250"/><br/><br/>
+
+<li>Model Training - Rather than training the data in classical way.I have used the concept of Stacking where in 1st level I have used Models like Random Forest Classifier,Decision Tree Classifier,K Nearest Classifier and combined their result obtained using Logistic Classifier.This helps us to improve the accuracy of result obtained.</li><br/><br/>
+
+<li>Hyperparameter Tuning-In every ML model we have certain parameter whose value need to be correclty tuned for optimised result.If we do not tune the parameter it may lead to overfitting or underfitting.So i have used RandomizedSearchCV to tune parameters of every model.</li><br/><br/>
+
+<li>KFold Validation-In every ML project we have three types of sets-test,train and validation.The benefits of having a validation set is that is backpropagates to tune in the parameters.So i have used KFold validation which divide the train set into k valid sets.</li><br/><br/>
+
+<img src="emotion and genre analysis/snapshots/ss6.PNG" width="300" height="250"/>&nbsp; &nbsp; &nbsp; &nbsp;
+<img src="emotion and genre analysis/snapshots/ss7.PNG" width="300" height="250"/><br/><br/>
+<img src="emotion and genre analysis/snapshots/ss8.PNG" width="300" height="250"/>&nbsp; &nbsp; &nbsp; &nbsp;
+<img src="emotion and genre analysis/snapshots/ss9.PNG" width="300" height="250"/><br/><br/>
+<img src="emotion and genre analysis/snapshots/ss10.PNG" width="300" height="250"/><br/><br/>
+
+<li></li><br/><br/>
+
+
 
   
 
