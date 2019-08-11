@@ -44,14 +44,17 @@ public class TopicsAdapter extends RecyclerView.Adapter<TopicsAdapter.TopicViewH
 
     @Override
     public void onBindViewHolder(TopicViewHolder holder, int position) {
-        TopicsModel topicsModel = topics.get(position);
+        final TopicsModel topicsModel = topics.get(position);
         holder.topicname.setText(topicsModel.getTopic_name());
         Glide.with(holder.imageView.getContext()).load(topicsModel.getTopic_img()).into(holder.imageView);
         holder.taptopic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent in = new Intent(view.getContext(), TopicDetailActivity.class);
-                in.putExtra("");
+                in.putExtra("topic_id", String.valueOf(topicsModel.getTopic_id()));
+                in.putExtra("topic_name", topicsModel.getTopic_name());
+                in.putExtra("topic_image", topicsModel.getTopic_img());
+                in.putExtra("topic_desc", topicsModel.getTopic_desc());
                 view.getContext().startActivity(in);
             }
         });

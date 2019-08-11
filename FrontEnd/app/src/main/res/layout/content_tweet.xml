@@ -42,6 +42,7 @@
                     android:layout_marginBottom="20dp"
                     android:textSize="18sp"
                     android:textAllCaps="false"
+                    android:textStyle="bold"
                     android:text="Lorem Ipsum dolor sit amet"
                     android:textColor="@android:color/white" />
 

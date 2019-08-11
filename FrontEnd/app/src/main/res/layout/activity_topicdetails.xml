@@ -24,8 +24,7 @@
             <RelativeLayout
                 android:id="@+id/relayout_1"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@drawable/dummy">
+                android:layout_height="150dp">
 
                 <ImageButton
                     android:layout_width="wrap_content"
@@ -36,6 +35,13 @@
                     android:layout_marginTop="22dp"
                     android:layout_marginStart="20dp"
                     android:layout_marginBottom="20dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/dummy"
+                    android:id="@+id/image_topic"
+                    android:scaleType="fitXY"/>
 
                 <TextView
                     android:layout_width="wrap_content"

@@ -20,4 +20,7 @@ public interface ApiInterface {
 
     @GET("topic_id={topic_id}")
     Call<List<CommentsModel>> getComments(@Path("topic_id") int topic_id);
+
+    @GET("comment={comment_cont}&topic_id={topicid}")
+    Call<ResponseBody> putComment(@Path("comment_cont") String comment, @Path("topicid") int topic_id);
 }

@@ -3,9 +3,9 @@ package com.teksystem.hackathon.Models;
 import com.google.gson.annotations.SerializedName;
 
 public class TopicsModel {
-    @SerializedName("topic_id")
+    @SerializedName("topics_id")
     private int topic_id;
-    @SerializedName("topic_name")
+    @SerializedName("topics_name")
     private String topic_name;
     @SerializedName("topic_desc")
     private String topic_desc;
