@@ -31,6 +31,10 @@ public class AddCommentActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent in = new Intent(AddCommentActivity.this, TopicDetailActivity.class);
+                in.putExtra("topic_id", getIntent().getStringExtra("topic_id"));
+                in.putExtra("topic_name", getIntent().getStringExtra("topic_name"));
+                in.putExtra("topic_img", getIntent().getStringExtra("topic_img"));
+                in.putExtra("topic_desc", getIntent().getStringExtra("topic_desc"));
                 startActivity(in);
             }
         });
@@ -38,7 +42,8 @@ public class AddCommentActivity extends AppCompatActivity {
         submitbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent in = new Intent();
+
+                Intent in = getIntent();
                 String topic_id = in.getStringExtra("topic_id");
                 int topicid = Integer.parseInt(topic_id);
                 EditText editText = findViewById(R.id.editext_opinion);
@@ -49,7 +54,7 @@ public class AddCommentActivity extends AppCompatActivity {
                         opinion = opinion + str.charAt(i);
                     }
                     else {
-                        opinion = opinion + str.charAt('_');
+                        opinion = opinion + '_';
                     }
                 }
                 ApiInterface apiInterface = ApiClient.getClient().create(ApiInterface.class);
