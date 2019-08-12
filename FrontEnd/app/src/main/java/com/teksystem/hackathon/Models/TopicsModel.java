@@ -11,12 +11,18 @@ public class TopicsModel {
     private String topic_desc;
     @SerializedName("topic_image")
     private String topic_img;
+    @SerializedName("topic_genre")
+    private String topic_genre;
+    @SerializedName("topic_emot")
+    private String topic_emot;
 
-    TopicsModel(int topic_id, String topic_name, String topic_desc, String topic_img) {
+    TopicsModel(int topic_id, String topic_name, String topic_desc, String topic_img, String topic_genre, String topic_emot) {
         this.topic_id = topic_id;
         this.topic_name = topic_name;
         this.topic_desc = topic_desc;
         this.topic_img = topic_img;
+        this.topic_genre = topic_genre;
+        this.topic_emot = topic_emot;
     }
 
     public void setTopic_id(int topic_id) {
@@ -49,5 +55,21 @@ public class TopicsModel {
 
     public String getTopic_img() {
         return topic_img;
+    }
+
+    public void setTopic_genre(String topic_genre) {
+        this.topic_genre = topic_genre;
+    }
+
+    public String getTopic_genre() {
+        return topic_genre;
+    }
+
+    public void setTopic_emot(String topic_emot) {
+        this.topic_emot = topic_emot;
+    }
+
+    public String getTopic_emot() {
+        return topic_emot;
     }
 }

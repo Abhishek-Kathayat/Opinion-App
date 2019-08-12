@@ -94,17 +94,17 @@
                     android:layout_toEndOf="@id/tweet_minus"
                     android:layout_centerVertical="true" />
 
-                <!--<TextView
+                <TextView
                     android:id="@+id/topic_category"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
                     android:textAllCaps="false"
-                    android:text="Tech"
+                    android:text="Political"
                     android:layout_alignParentEnd="true"
                     android:layout_marginEnd="20dp"
                     android:layout_centerVertical="true"
-                    android:textColor="@color/colorBlue"/>-->
+                    android:textColor="@color/colorBlue"/>
 
             </RelativeLayout>
 

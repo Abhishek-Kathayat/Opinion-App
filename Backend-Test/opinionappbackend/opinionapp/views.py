@@ -11,7 +11,9 @@ def getTopics(request):
             'topics_id': int(topic.topic_id),
             'topics_name': str(topic.topic_name),
             'topic_desc': str(topic.topic_desc),
-            'topic_image': str(topic.topic_img)
+            'topic_image': str(topic.topic_img),
+            'topic_genre': str(topic.topic_genre),
+            'topic_emot': str(topic.topic_emot)
         }
         for topic in list(topics)
     ]

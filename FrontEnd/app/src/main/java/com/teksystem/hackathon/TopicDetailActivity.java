@@ -13,7 +13,6 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
 import com.teksystem.hackathon.Adapters.CommentAdapter;
 import com.teksystem.hackathon.Models.CommentsModel;
 import com.teksystem.hackathon.rest.ApiClient;
@@ -31,6 +30,8 @@ public class TopicDetailActivity extends AppCompatActivity {
     CommentAdapter commentAdapter;
     RecyclerView recyclerView;
 
+
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_topicdetails);
@@ -40,6 +41,8 @@ public class TopicDetailActivity extends AppCompatActivity {
         final String topic_name = intent.getStringExtra("topic_name");
         final String topic_desc = intent.getStringExtra("topic_desc");
         final String topic_img = intent.getStringExtra("topic_img");
+        final String topic_genre = intent.getStringExtra("topic_genre");
+        final String topic_emot = intent.getStringExtra("topic_emot");
 
         TextView topicname = findViewById(R.id.heading_topic);
         topicname.setText(topic_name);
@@ -47,8 +50,22 @@ public class TopicDetailActivity extends AppCompatActivity {
         TextView topicdesc = findViewById(R.id.about_desc);
         topicdesc.setText(topic_desc);
 
+        TextView topicgenre = findViewById(R.id.topic_genre);
+        topicgenre.setText(topic_genre);
+
         ImageView imageView = findViewById(R.id.image_topic);
         GlideApp.with(getApplicationContext()).load(topic_img).into(imageView);
+
+        ImageView imageView1 = findViewById(R.id.topic_emot);
+        if(topic_emot.equals("Happy")) {
+            imageView1.setImageResource(R.drawable.ic_happy);
+        }
+        else if(topic_emot.equals("Sad")) {
+            imageView1.setImageResource(R.drawable.ic_sad);
+        }
+        else {
+            imageView1.setImageResource(R.drawable.ic_confused);
+        }
 
         ImageButton buttonback = findViewById(R.id.backbutton_details);
         buttonback.setOnClickListener(new View.OnClickListener() {
@@ -68,6 +85,8 @@ public class TopicDetailActivity extends AppCompatActivity {
                 in.putExtra("topic_name", topic_name);
                 in.putExtra("topic_image", topic_img);
                 in.putExtra("topic_desc", topic_desc);
+                in.putExtra("topic_genre", topic_genre);
+                in.putExtra("topic_emot", topic_emot);
                 startActivity(in);
             }
         });
