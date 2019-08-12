@@ -40,7 +40,7 @@ public class TopicDetailActivity extends AppCompatActivity {
         final int topic_id = Integer.parseInt(intent.getStringExtra("topic_id"));
         final String topic_name = intent.getStringExtra("topic_name");
         final String topic_desc = intent.getStringExtra("topic_desc");
-        final String topic_img = intent.getStringExtra("topic_img");
+        final String topic_img = intent.getStringExtra("topic_image");
         final String topic_genre = intent.getStringExtra("topic_genre");
         final String topic_emot = intent.getStringExtra("topic_emot");
 
@@ -54,7 +54,7 @@ public class TopicDetailActivity extends AppCompatActivity {
         topicgenre.setText(topic_genre);
 
         ImageView imageView = findViewById(R.id.image_topic);
-        GlideApp.with(getApplicationContext()).load(topic_img).into(imageView);
+        GlideApp.with(imageView.getRootView().getContext()).load(topic_img).dontAnimate().into(imageView);
 
         ImageView imageView1 = findViewById(R.id.topic_emot);
         if(topic_emot.equals("Happy")) {
