@@ -18,7 +18,7 @@ Shown below are the screenshots of the app showing the different layout of the a
 
 &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/Screenshot_20190811-214343.png" width="250" height="440"/> &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/Screenshot_20190811-214401.png" width="250" height="440"/> <br/> <br/>
 
-&nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/Screenshot_20190811-214953.png" width="250" height="440"/> &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/Screenshot_20190811-214423.png" width="250" height="440"/> <br/> <br/>
+&nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/Screenshot_20190812-120441.png" width="250" height="440"/> &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/Abhishek-Kathayat/TEKSystem-Hackathon/blob/master/Screen%20Shots/Screenshot_20190811-214423.png" width="250" height="440"/> <br/> <br/>
 
 The content in the screenshots shown above has been loaded using a test API created in Django by me and uses SQLite database for storage of data. Due to some technical issues the original API in PHP was not used and content loading was shown using the Django Rest API. To run the app the following steps needs to be followed : <br/>
 <ul>
