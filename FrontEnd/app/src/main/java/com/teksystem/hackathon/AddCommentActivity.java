@@ -33,7 +33,7 @@ public class AddCommentActivity extends AppCompatActivity {
                 Intent in = new Intent(AddCommentActivity.this, TopicDetailActivity.class);
                 in.putExtra("topic_id", getIntent().getStringExtra("topic_id"));
                 in.putExtra("topic_name", getIntent().getStringExtra("topic_name"));
-                in.putExtra("topic_img", getIntent().getStringExtra("topic_img"));
+                in.putExtra("topic_image", getIntent().getStringExtra("topic_image"));
                 in.putExtra("topic_desc", getIntent().getStringExtra("topic_desc"));
                 in.putExtra("topic_genre", getIntent().getStringExtra("topic_genre"));
                 in.putExtra("topic_emot", getIntent().getStringExtra("topic_emot"));

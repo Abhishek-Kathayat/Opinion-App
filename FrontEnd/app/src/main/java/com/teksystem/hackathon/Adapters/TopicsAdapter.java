@@ -20,12 +20,14 @@ public class TopicsAdapter extends RecyclerView.Adapter<TopicsAdapter.TopicViewH
     private List<TopicsModel> topics;
 
     public class TopicViewHolder extends RecyclerView.ViewHolder {
-        public TextView topicname, topicgenre;
+        public TextView topicname, topicgenre, topicpositive, topicnegative;
         public ImageView imageView;
         public CoordinatorLayout taptopic;
         public TopicViewHolder(View view) {
             super(view);
             topicname = (TextView)view.findViewById(R.id.desc_tweet);
+            topicpositive = view.findViewById(R.id.plus_count);
+            topicnegative = view.findViewById(R.id.minus_count);
             topicgenre = view.findViewById(R.id.topic_category);
             imageView = view.findViewById(R.id.image_tweet);
             taptopic = view.findViewById(R.id.tab_topic);
@@ -47,6 +49,8 @@ public class TopicsAdapter extends RecyclerView.Adapter<TopicsAdapter.TopicViewH
     public void onBindViewHolder(TopicViewHolder holder, int position) {
         final TopicsModel topicsModel = topics.get(position);
         holder.topicname.setText(topicsModel.getTopic_name());
+        holder.topicnegative.setText(String.valueOf(topicsModel.getTopic_negative()));
+        holder.topicpositive.setText(String.valueOf(topicsModel.getTopic_positive()));
         holder.topicgenre.setText(topicsModel.getTopic_genre());
         Glide.with(holder.imageView.getContext()).load(topicsModel.getTopic_img()).into(holder.imageView);
         holder.taptopic.setOnClickListener(new View.OnClickListener() {

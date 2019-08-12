@@ -15,14 +15,20 @@ public class TopicsModel {
     private String topic_genre;
     @SerializedName("topic_emot")
     private String topic_emot;
+    @SerializedName("topic_positive")
+    private int topic_positive;
+    @SerializedName("topic_negative")
+    private int topic_negative;
 
-    TopicsModel(int topic_id, String topic_name, String topic_desc, String topic_img, String topic_genre, String topic_emot) {
+    TopicsModel(int topic_id, String topic_name, String topic_desc, String topic_img, String topic_genre, String topic_emot, int topic_positive, int topic_negative) {
         this.topic_id = topic_id;
         this.topic_name = topic_name;
         this.topic_desc = topic_desc;
         this.topic_img = topic_img;
         this.topic_genre = topic_genre;
         this.topic_emot = topic_emot;
+        this.topic_positive = topic_positive;
+        this.topic_negative = topic_negative;
     }
 
     public void setTopic_id(int topic_id) {
@@ -71,5 +77,13 @@ public class TopicsModel {
 
     public String getTopic_emot() {
         return topic_emot;
+    }
+
+    public int getTopic_negative() {
+        return topic_negative;
+    }
+
+    public int getTopic_positive() {
+        return topic_positive;
     }
 }

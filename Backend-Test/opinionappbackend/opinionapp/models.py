@@ -8,6 +8,8 @@ class Topic(models.Model):
     topic_img = models.CharField(max_length=100)
     topic_genre = models.CharField(max_length=30, null=True)
     topic_emot = models.CharField(max_length=30, null=True)
+    topic_positive = models.IntegerField(null=True)
+    topic_negative = models.IntegerField(null=True)
 
 class Comment(models.Model):
     comment_id = models.AutoField(primary_key=True)
