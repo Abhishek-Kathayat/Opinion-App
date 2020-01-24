@@ -1,4 +1,5 @@
-# Opinion System ![GitHub contributors](https://img.shields.io/github/contributors/Abhishek-Kathayat/TEKSystem-Hackathon)
+# Opinion System 
+![GitHub contributors](https://img.shields.io/github/contributors/Abhishek-Kathayat/TEKSystem-Hackathon)
 
 ### Introduction
 This project "Opinion System" focuses on creating a system to help people give their opinion and discuss about a particular topic of Science, Technology, Politics, Education etc. The App provides the people a platform to give suggestions and raise concerns regarding topics of national and international interests. <br/>
